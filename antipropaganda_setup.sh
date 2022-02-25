@@ -10,4 +10,7 @@ rm -f get-docker.sh
 sudo usermod -aG docker $USER
 sudo docker pull alpine/bombardier
 git clone https://github.com/qu4ma/antipropaganda.git
+chmod +x ./antipropaganda/fuckputin.sh
 echo "antipropaganda installed"
+echo "run:"
+echo "sudo ./antipropaganda/fuckputin.sh"
