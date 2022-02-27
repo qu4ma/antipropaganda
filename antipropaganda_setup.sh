@@ -1,8 +1,8 @@
 #!/bin/bash
 echo "installing antipropaganda..."
-sudo apt update
-sudo apt install git-all -y
-sudo apt install wget -y
+#sudo apt update
+#sudo apt install git-all -y
+#sudo apt install wget -y
 wget -O get-docker.sh https://get.docker.com
 sudo sh get-docker.sh
 sudo apt install -y docker-compose
