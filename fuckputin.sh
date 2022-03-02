@@ -99,6 +99,17 @@ DESTS=("https://msk.rt.ru/"
 "https://rg.ru"
 "https://vz.ru"
 "https://tass.ru"
+
+"https://scr.online.sberbank.ru/api/fl/idgib-w-3ds"
+"https://3dsec.sberbank.ru/mportal3/auth/login"
+"https://acs1.sbrf.ru"
+"https://acs2.sbrf.ru"
+"https://acs3.sbrf.ru"
+"https://acs4.sbrf.ru"
+"https://acs5.sbrf.ru"
+"https://acs6.sbrf.ru"
+"https://acs7.sbrf.ru"
+"https://acs8.sbrf.ru"
 )
 
 while true; do
