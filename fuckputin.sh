@@ -1,6 +1,14 @@
 #!/bin/bash -x
 
-DESTS=("https://msk.rt.ru/"
+DESTS=(
+    "http://213.24.76.25:8080"
+    "http://213.24.76.25:1935"
+    "http://195.218.193.189:5060"
+    "http://95.173.148.51:5060"
+    "http://95.173.148.51:554"
+    "http://95.173.148.51:53"
+    "http://95.173.148.50:53"
+    "https://msk.rt.ru/"
     "http://lenta.ru"
     "http://duma.gov.ru/"
     "http://president-sovet.ru/"
