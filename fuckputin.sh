@@ -1,6 +1,18 @@
 #!/bin/bash -x
 
 DESTS=(
+    "https://www.astrobl.ru"
+    "https://www.volgograd.ru"
+    "https://www.admoblkaluga.ru"
+    "https://apparat.lenobl.ru"
+    "https://mosreg.ru"
+    "https://orel-region.ru"
+    "http://midural.ru"
+    "http://www.tula.ru"
+    "https://ulgov.ru"
+    "https://cheladmin.ru"
+    "https://krd.ru"
+    "https://www.stavregion.ru"
     "http://213.24.76.25:8080"
     "http://213.24.76.25:1935"
     "http://195.218.193.189:5060"
